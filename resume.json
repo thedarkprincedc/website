@@ -1,0 +1,123 @@
+{
+	"info" : {
+		"title" : "Brett Thomas Mosley",
+		"contactInfo" : [
+			{
+				"name" : "phone",
+				"data" : "202-427-1641"
+			},
+			{
+				"name" : "email",
+				"data" : "brett.t.mosley@gmail.com"
+			},
+			{
+				"name" : "linkedin",
+				"data" : ""
+			},
+			{
+				"name" : "GitHub",
+				"data" : ""
+			},
+			{
+				"name" : "Private Git Repo",
+				"data" : ""
+			}
+		]
+	},
+	"education" : [
+		{
+			"school" : [
+				{
+					"name" : "Rochester Institute of Technology",
+					"major" : ["Information Technology"],
+					"minor" : ["Game Design","Interactive Multimedia Development"],
+					"city/state" : "Rochester, NY",
+					"graduationDate" : "2010",
+					"degreeType" : "Bachelor of Science",
+					"type" : "college/university"
+				}
+			]
+		}
+	],
+	"skills" : {
+		"summary" : [
+			"Web Development", "Systems Administration", "Technical Support", "Database Design and Development","Training"
+		],
+		"details" : [
+			{
+				"name" : "Web Development",
+				"list" : [
+					{
+						"name" : "Languages",
+						"list" : ["PHP", "Javascript", "SQL", "Python (Familiar)", "Java (Familiar)"]
+					},
+					{
+						"name" : "Libraries & Frameworks",
+						"list" : ["Angular.js", "Slim", "JQuery", "Require.js", "Bootstrap", "Foundation", "DHTMLX"]
+					},
+					{
+						"name" : "Environments",
+						"list" : ["LAMP", "WAMP"]
+					}
+				]
+			},
+			{
+				"name" : "Systems Administration",
+				"ulist" : ["Windows Systems Administration","Active Directory/Group Policy/LDAP","Shell Scripting Batch/Powershell/Kixtart","VMWare ESXi/vSphere/Workstation","Automation SCCM and Altiris","Web Services (IIS, Apache)","Databases (PostgreSQL, MSSQL, MySQL/MariaDB)","Imaging (Symantec Ghost, Clonezilla, Microsoft ImageX)"]
+			}
+		]
+	},
+	"experience" : [
+		{
+			"position" : "Software Developer",
+			"company" : "Flower City Printing",
+			"location" : "Rochester, NY",
+			"startDate" : "October 2013", "endDate" : "September 2015",
+			"list" : [
+				"Designed and Developed the Flower City Printing EFI Radius/Web Portal and web services API",
+				"Ported existing applications to Microsoft SQL Server based HTML5 Applications.",
+				"Integrated web applications with the EFI Radius MRP System, and PrintFlow application",
+				"Contributed various bug fixes and changes to various internal web and desktop applications"
+			]
+		},
+		{
+			"position" : "Systems Administrator",
+			"company" : "Kables Computer Service",
+			"location" : "West Henrietta, NY",
+			"startDate" : "July 2013", "endDate" : "September 2015",
+			"list" : [
+				"Planned and implemented full scale PC deployments for local fire districts and ambulance bases.",
+				"Setup, configured, and documented networks devices and servers.",
+				"Batch and KiXtart scripts with group policy to automate system configurations, software deployments, windows updates,drive mappings, and printers.",
+				"Implemented a robust disaster recovery plans utilizing multiple technologies."
+			]
+		},
+		{
+			"position" : "Client Services",
+			"company" : "Lewis Tree Service",
+			"location" : "West Henrietta, NY",
+			"startDate" : "November 2012", "endDate" : "June 2013",
+			"list" : [
+				
+			]
+		},
+		{
+			"position" : "Technology Support Technician",
+			"company" : "Keuka College",
+			"location" : "Keuka Park, NY",
+			"startDate" : "April 2011", "endDate" : "Nov 2012",
+			"list" : [
+				"Facilitated communications for service outages, security updates, and customer awareness",
+				"Provided level 1 and 2 support to over 300 faculty and staff members, 800 traditional students and over 2000 nontraditional students.",
+				"Provided after hours on-call phone support for students, faculty and staff.",
+				"Utilized Symantec Service Desk 7 to track calls, escalate, and resolve issues.",
+				"Worked with vendors to install classroom Computer and Audio Visual equipment",
+				"Provided virus removal services for faculty, staff and students",
+				"Maintained over 200 lab and classroom computers for student and event use",
+				"Provided support for Keuka’s Accelerated Studies for Adults Program, Wertman Office of Distance Education and Nursing departments at Keuka Business Park",
+				"Created policies, jobs and package software for automated software deployment via the Altiris Platform",
+				"Collected and published software, hardware and ticket data for Altiris, and Service Desk via built in reporting tools and direct MSSQL database queries."
+			]
+		}
+	]
+}
