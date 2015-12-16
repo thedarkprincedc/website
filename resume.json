@@ -1,28 +1,6 @@
 {
 	"info" : {
-		"title" : "Brett Thomas Mosley",
-		"contactInfo" : [
-			{
-				"name" : "phone",
-				"data" : "202-427-1641"
-			},
-			{
-				"name" : "email",
-				"data" : "brett.t.mosley@gmail.com"
-			},
-			{
-				"name" : "linkedin",
-				"data" : ""
-			},
-			{
-				"name" : "GitHub",
-				"data" : ""
-			},
-			{
-				"name" : "Private Git Repo",
-				"data" : ""
-			}
-		]
+		"title" : "Brett Thomas Mosley"
 	},
 	"education" : [
 		{
@@ -98,7 +76,11 @@
 			"location" : "West Henrietta, NY",
 			"startDate" : "November 2012", "endDate" : "June 2013",
 			"list" : [
-				
+				"Provided desktop support services for 450 corporate office and field users.",
+				"Communicated service outages for customer awareness, and service updates",
+				"Implemented and maintained the System Configuration Control Manager 2012 Infrastructure with over 100 PC’s with plans to expand to the remaining 350 field PC’s",
+				"Responsible for purchasing and managing computer equipment, cellphones and air cards.",
+				"Managed and supported a small NComputing VDI environment and mobile device infrastructure with Blackberry BES for Blackberry Phones and Mobile Iron VSP for IOS and Android devices."
 			]
 		},
 		{
@@ -117,6 +99,46 @@
 				"Provided support for Keuka’s Accelerated Studies for Adults Program, Wertman Office of Distance Education and Nursing departments at Keuka Business Park",
 				"Created policies, jobs and package software for automated software deployment via the Altiris Platform",
 				"Collected and published software, hardware and ticket data for Altiris, and Service Desk via built in reporting tools and direct MSSQL database queries."
+			]
+		},
+		{
+			"position" : "Residential Computing Consultant",
+			"company" : "RESNET, ITS, Rochester Institute of Technology",
+			"location" : "Rochester, NY",
+			"startDate" : "July 2010 - Nov 2010", "endDate" : "Sept 2005 - Dec 2005",
+			"list" : [
+				"Provided level 1 and 2 support to RIT students, faculty, and staff for their personal computers.",
+				"Made hardware and software recommendations for customers.",
+				"Learned advanced virus removal techniques, data recovery, and Mac troubleshooting techniques",
+				"Established contact with customers in order to rectify problem situations",
+				"Learned how to use advanced network troubleshooting equipment such a flukes and toners.",
+				"Provided on-site network support for connectivity problems in the dorms and student housing."
+			]
+		},
+		{
+			"position" : "Helpdesk, Level 1 Support / Live Support Tech (CO-OP)",
+			"company" : "Progressive Expert Consulting",
+			"location" : "Syracuse, NY",
+			"startDate" : "April 2011", "endDate" : "Nov 2012",
+			"list" : [
+				"Provided phone and remote support to Department of Defense employees and Active Duty military personnel for the PEC’s VConnect Software.",
+				"Monitored and Tracked Attendance foreign language classes.",
+				"Scheduled appointments for tutoring and higher tier support.",
+				"Documented class progress for bi-weekly reports and curriculum research."
+			]
+		},
+		{
+			"position" : "Helpdesk / Desktop Support Technician (CO-OP)",
+			"company" : "The City of Rochester IT Team",
+			"location" : "Rochester, NY",
+			"startDate" : "April 2011", "endDate" : "Nov 2012",
+			"list" : [
+				"Provided on-site desktop and network support for all city departments.",
+				"Developed experience working in a team environment",
+				"Scheduled appointments for services",
+				"Used Symantec Ghost via PXE to image pc’s",
+				"Serviced computer equipment in Rochester Police Department patrol vehicles",
+				"Provided on-site support during the Novell Directory Services to Active Directory migration."
 			]
 		}
 	]

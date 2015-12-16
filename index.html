@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
 
 <head>
 
@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Grayscale - Start Bootstrap Theme</title>
+    <title>thedarkprincedc - Webpage of Brett Mosley</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,6 +28,14 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+        .resume_title{
+            font-size:3em;
+        }
+        .resume_header {
+            font-size: 1.7em;
+        }
+    </style>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -41,7 +49,7 @@
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
                     <!--<i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap-->
-                    <span class="light">Thedarkprincedc.com</span>
+                    <!--<span class="light">Brett Mosley</span>-->
                 </a>
             </div>
 
@@ -80,9 +88,9 @@
                     <div class="col-md-10 col-md-offset-1">
                         <h1 class="brand-heading">Brett Mosley</h1>
                         <p class="intro-text">Software Developer / Systems Administrator</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
+                        <!--<a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+                        </a>-->
                     </div>
                 </div>
             </div>
@@ -90,7 +98,7 @@
     </header>
 
     <!-- About Section -->
-    <section id="about" class="container content-section text-center">
+    <section id="about" class="container text-center" style="padding-top:30%;padding-bottom:200px;">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About</h2>
@@ -100,54 +108,20 @@
         </div>
     </section>
  <!-- Resume Section -->
-    <section id="resume" class="container content-section">
+    <section id="resume" class="container" style="padding-top:75px;">
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-1">
+            <div class="col-lg-8 col-lg-offset-2">
                 <h2 class="text-center">Resume</h2>
-                <div id="rrResume"></div>
-                <!--
-                <span class="text-center">
-                    <h3>Brett Thomas Mosley</h3>
-                    <h4>202.427.1641 | 
-                        <a href="https://www.linkedin.com/in/brettmosleydev" target="_blank">LinkedIn</a> | 
-                        <a href="https://github.com/thedarkprincedc" target="_blank">GitHub</a>
-                    </h4>
-                </span>
-                 
-                <h4>Education:</h4>
-                    <div class="education"></div>
-                <h4>Summary of Skills:</h4>
-                    <div class="skills"></div>
-                <h4>Experience:</h4>
-                    <div class="experience"></div>
-                <span class="text-center">Download PDF | DOCX</span>-->
+                <div ng-Resume></div>
         </div>
     </section>
     <!-- Download Section -->
-    <section id="projects" class="content-section">
-        <div class="download-section">
+    <section id="projects">
+        <div style="padding-top:75px;padding-bottom:300px;">
             <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-12">
                     <h2 class="text-center">Projects</h2>
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <img src="" />
-                        </div>
-                        <div class="col-xs-8">
-                            <h4>RomSync</h4>
-                            <p>A software used to syncronize roms</p>
-                        </div>
-                    </div>
-                    
-                     <div class="row">
-                        <div class="col-xs-4">
-                            <img src="" />
-                        </div>
-                        <div class="col-xs-8">
-                            <h4>IronStag</h4>
-                            <p>A software used to syncronize roms</p>
-                        </div>
-                    </div>
+                    <div ng-Projects></div>
                 </div>
             </div>
         </div>
@@ -155,22 +129,19 @@
    
 
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
+    <section id="contact" class="container text-center" style="padding-bottom:200px;">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact Me</h2>
-                <p>Looking for a Developer or Systems Administrator to join your team?<br/> Feel free to email me.</p>
+                <p>Looking for a Developer or Systems Administrator to join your team?<br/> Feel free to contact me.</p>
                 <p><a href="mailto:brett.t.mosley@gmail.com">brett.t.mosley@gmail.com</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        <a href="https://www.linkedin.com/in/brettmosleydev" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin-square"></i> <span class="network-name">LinkedIn</span></a>
                     </li>
                     <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                        <a href="https://github.com/thedarkprincedc" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
                 </ul>
             </div>
@@ -183,7 +154,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2014</p>
+            <!--<p>Copyright &copy; Brett Mosley 2015</p>-->
         </div>
     </footer>
 
@@ -201,62 +172,88 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
-    <script src="https://fb.me/react-0.14.3.js"></script>
-    <script src="https://fb.me/react-dom-0.14.3.js"></script>
-    
+    <script src="js/angular-1.4.7/angular.js"></script>
     <script type="text/javascript">
-    var Hello = React.createClass({
-    render: function() {
-            return "<div>Hello {this.props.name}</div>";
-        }
-    });
-    
-    ReactDOM.render(
-        <Hello name="World" />,
-        document.getElementById('rrResume');
-    );
-    /*function ulist(arrlist){
-        if(typeof(arrlist)=="undefined")
-            return "";
-        return "<ul>"+arrlist.map(function(obj){
-                   return "<li>"+obj+"</li>";
-               }).join("")+"</ul>"
-    }
-    $(function() {
+        'use strict';
+
+        var app = angular.module('myApp', ['myAppControllers']);
+        var SynoSearchControllers = angular.module('myAppControllers', []);
         
-        $.getJSON("./resume.json").then(function(msg){
-        
-           
-           if(msg.skills){
-               var skills = "";
-             
-               skills += msg.skills.summary.join(", ");
-               skills += msg.skills.details.map(function(obj){
-                   var vList="";
-                     if(obj.list){
-                         obj.list.forEach(function(ele, ind, arr){
-                            debugger;
-                            arr[ind].list = arr[ind].list.join(",");
-                            vList += "<ul><li>"+arr[ind].name+"</li><li><ul><li>"+arr[ind].list+"</li></ul></li></ul>";
-                        });
-                     }
-                     
-                     //obj.list[].name
-                     //obj.list[].list.join(", ")
-                   return "<p>"+obj.name+ulist(obj.ulist)+vList+"</p>";
-               }).join("");
-               $(".skills").html(skills);
-           }
-           var experience = "";
-           $.each(msg.experience, function(ind, val){
-               experience += val.position + ", " + val.company + "<br/>"+
-                        val.location+"&nbsp;&nbsp;" + val.startDate + " - " + val.endDate +
-                        ulist(val.list);
-           });
-           
-           $(".experience").html("<span>"+experience+"</span>");
+       app.directive('ngResume', function() {
+            return {
+                template: `<div class="text-center resume_header">{{title}}</div>
+                            <span class="resume_header">Education</span><br/>
+                            <b>Bachelor of Science, Information Technology, Class of 2010</b><br/>
+                            <u>Rochester Institute of Technology</u>, Rochester, NY<br/>
+                            <b>Concentrations: Game Design, Interactive Multimedia Development</b><br/>
+                            <span class="resume_header">Summary of Skills</span><br/>
+                            {{skillItems.summary.join(", ")}}<br/>
+                        <ul ng-repeat="item in skillItems.details">
+                            <li style="list-style-type:none;list-style-position: outside;" class="resume_header">{{item.name}}</li>
+                            <ul ng-repeat="subitem in item.list">
+                                <li>{{subitem.name}}</li>
+                                <ul><li>{{subitem.list.join(", ")}}</li></ul>
+                            </ul>
+                            <ul ng-repeat="subitem in item.ulist">
+                                <li>{{subitem}}</li>
+                            </ul>
+                        </ul>
+                        <span class="resume_header">Experience</span><br/>
+                        <span ng-repeat="item in experienceItems">
+                                {{item.position}}, {{item.company}}<br/>
+                                {{item.location}}&nbsp;&nbsp;&nbsp;{{item.startDate}} - {{item.endDate}}<br/>
+                                <ul ng-repeat="subitem in item.list">
+                                    <li>{{subitem}}</li>
+                                </ul>      
+                        </span>
+                        Download <a>PDF</a> | <a>DOCX<a/>
+                        `,   
+                controller : ['$scope', '$http', '$rootScope','$timeout',function($scope, $http, $rootScope, $timeout) {
+                    $.getJSON("./resume.json", function(msg){
+                        $scope.title = msg.info.title;
+                        $scope.contactInfo = msg.contactInfo;
+                        $scope.skillItems = msg.skills;
+                        $scope.experienceItems = msg.experience;
+                        $scope.$apply();
+                        debugger;
+                    })
+                }],
+                link : function(scope, iElement, iAttrs, ctrl) {
+                
+                }
+            }
         });
-    });*/
+        app.directive('ngProjects', function() {
+            return {
+                template: `<div class="row">
+                                <div ng-repeat="item in projectList" class="col-xs-8 col-xs-offset-2"> 
+                                   
+                                    <div class="media" style="padding:10px">
+                                    <div class="media-left" >
+                                        <a href="#">
+                                        <img class="media-object" ng-src="{{(item.img)?item.img:'./img/no-image-available.jpg'}}" alt="..." width="175px">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">{{item.name}} ({{item.year}})</h4>
+                                        {{item.desc}}<br/>
+                                        <a href="{{item.repository}}">Repository</a> | <a href="{{item.link}}">Link</a>
+                                    </div>
+                                    </div>                 
+                                </div>
+                           </div>`,   
+                controller : ['$scope', '$http', '$rootScope','$timeout',function($scope, $http, $rootScope, $timeout) {
+                     $.getJSON("./projects.json", function(msg){
+                          $scope.projectList = msg.projects;
+                           $scope.$apply();
+                      
+                      });
+                }],
+                link : function(scope, iElement, iAttrs, ctrl) {
+                     debugger;
+                }
+            }
+        });
     </script>
 </body>
 

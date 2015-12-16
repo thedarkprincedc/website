@@ -1,0 +1,58 @@
+{
+	"projects" : [
+		{
+			"name" : "RomSync",
+			"year" : "2015",
+			"desc" : "A web app to manage and sync your rom collection to android devices",
+			"img" : "./img/romlist_cover_image.png",
+			"link" : "http://romsync.thedarkprincedc.com",
+			"repository" : "http://git.thedarkprincedc.com/bmosley/RomSync",
+			"active" : "true"
+		},
+		{
+			"name" : "KeyRepo",
+			"year" : "2014",
+			"desc" : "A repository for software keys",
+			"img" : "",
+			"link" : "",
+			"repository" : "",
+			"active" : "true"
+		},
+		{
+			"name" : "SynoSearch",
+			"year" : "2013",
+			"desc" : "Web based filebased search application",
+			"img" : "",
+			"link" : "",
+			"repository" : "",
+			"active" : "true"
+		},
+		{
+			"name" : "Windows Autoconfig Scripts",
+			"year" : "2011",
+			"desc" : "AutoConfiguration Wireless Script for Windows.",
+			"img" : "",
+			"repository" : "",
+			"active" : "true"
+		},
+		{
+			"name" : "IronStag",
+			"year" : "2009",
+			"desc" : "XNA/MonoGame-based, megamanesque platformer with a space-western theme",
+			"img" : "https://raw.githubusercontent.com/RochesterIndiesAnonymous/Ironstag/master/Western%20Space/Content/Textures/Cutscenes/Intro7.png",
+			"link" : "",
+			"repository" : "https://github.com/RochesterIndiesAnonymous/Ironstag",
+			"active" : "true"
+		}
+	],
+	"external" : [
+		{
+			"name" : "GitHub",
+			"link" : ""
+		},
+		{
+			"name" : "My Git Repo",
+			"link" : ""
+		}	
+	]
+}
