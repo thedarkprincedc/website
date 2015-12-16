@@ -1,4 +1,12 @@
 {
+	"icons" : [
+		{
+			"git" : "fa fa-git"
+		},
+		{
+			"github" : ""
+		}
+	],
 	"projects" : [
 		{
 			"name" : "RomSync",
@@ -7,6 +15,15 @@
 			"img" : "./img/romlist_cover_image.png",
 			"link" : "http://romsync.thedarkprincedc.com",
 			"repository" : "http://git.thedarkprincedc.com/bmosley/RomSync",
+			"active" : "true"
+		},
+		{
+			"name" : "RomSync Mobile",
+			"year" : "2015",
+			"desc" : "The native android version of RomSync",
+			"img" : "./img/romsync_mobile_cover.png",
+			"link" : "",
+			"repository" : "http://git.thedarkprincedc.com/bmosley/romsync-androidapp",
 			"active" : "true"
 		},
 		{
@@ -22,17 +39,17 @@
 			"name" : "SynoSearch",
 			"year" : "2013",
 			"desc" : "Web based filebased search application",
-			"img" : "",
+			"img" : "https://raw.githubusercontent.com/thedarkprincedc/SynoSearch/master/screenshot.png",
 			"link" : "",
-			"repository" : "",
+			"repository" : "https://github.com/thedarkprincedc/SynoSearch",
 			"active" : "true"
 		},
 		{
-			"name" : "Windows Autoconfig Scripts",
+			"name" : "Windows WLAN Autoconfig Scripts",
 			"year" : "2011",
 			"desc" : "AutoConfiguration Wireless Script for Windows.",
 			"img" : "",
-			"repository" : "",
+			"repository" : "https://github.com/thedarkprincedc/WLANAutoConfigScript",
 			"active" : "true"
 		},
 		{
@@ -42,6 +59,7 @@
 			"img" : "https://raw.githubusercontent.com/RochesterIndiesAnonymous/Ironstag/master/Western%20Space/Content/Textures/Cutscenes/Intro7.png",
 			"link" : "",
 			"repository" : "https://github.com/RochesterIndiesAnonymous/Ironstag",
+			"youtube" : "https://www.youtube.com/watch?v=OjiD6BPtDxI",
 			"active" : "true"
 		}
 	],

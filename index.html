@@ -200,7 +200,7 @@
                         </ul>
                         <span class="resume_header">Experience</span><br/>
                         <span ng-repeat="item in experienceItems">
-                                {{item.position}}, {{item.company}}<br/>
+                                <b>{{item.position}}</b>, <u>{{item.company}}</u><br/>
                                 {{item.location}}&nbsp;&nbsp;&nbsp;{{item.startDate}} - {{item.endDate}}<br/>
                                 <ul ng-repeat="subitem in item.list">
                                     <li>{{subitem}}</li>
@@ -237,7 +237,10 @@
                                     <div class="media-body">
                                         <h4 class="media-heading">{{item.name}} ({{item.year}})</h4>
                                         {{item.desc}}<br/>
-                                        <a href="{{item.repository}}">Repository</a> | <a href="{{item.link}}">Link</a>
+                                        <a href="{{item.repository}}" class="btn btn-default btn-xs" target="_blank" ng-show="{{item.repository.length}}"><i class="{{item.icon}}"></i>&nbsp;Repository</a> 
+                                        <a href="{{item.link}}" class="btn btn-default btn-xs" target="_blank" ng-show="{{item.link.length}}"><i class="fa fa-external-link"></i>&nbsp;Link</a>
+                                        <a href="{{item.youtube}}" class="btn btn-default btn-xs" target="_blank" ng-show="{{item.youtube.length}}"><i class="fa fa-youtube"></i>&nbsp;Video</a>
+                                    
                                     </div>
                                     </div>                 
                                 </div>
@@ -245,6 +248,18 @@
                 controller : ['$scope', '$http', '$rootScope','$timeout',function($scope, $http, $rootScope, $timeout) {
                      $.getJSON("./projects.json", function(msg){
                           $scope.projectList = msg.projects;
+                          var re = /http\:\/\/git/ig;
+                          var er = /https\:\/\/github/ig;
+                          $.each($scope.projectList, function(ind, val){
+                              
+                              if(re.test(val.repository)){
+                                  $scope.projectList[ind].icon = "fa fa-git";
+                              }
+                              if(er.test(val.repository)){
+                                  $scope.projectList[ind].icon = "fa fa-github";
+                              }
+                             
+                          });
                            $scope.$apply();
                       
                       });
